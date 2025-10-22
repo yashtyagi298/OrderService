@@ -12,4 +12,5 @@ import lombok.*;
 public class CreateOrderResponseDTO {
     private long orderId;
     private OrderStatus status;
+    private double totalPrice;
 }
